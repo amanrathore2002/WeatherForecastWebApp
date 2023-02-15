@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet/weathcss.css">
+    
+        <title>Weather Forecast App</title>
+    </head>
+    <body>
+        <header id="head">
+            <img src="https://cdn-icons-png.flaticon.com/512/4814/4814275.png" alt="logo" id="logo">
+            <p class="title" id="title">Weather Forecast</p>
+            <p id="inputContainer">
+            <input type="text" class="search" id="cityInput" placeholder="Search Location"></p>
+
+            <input type="button" id="searchb" class="search" value="Search">
+            
+        
+            
+        </header>
+        <nav id="nav">
+            <ul id="list">
+                <li><a  href="#"> Home </a></li>
+                <li><a href="#"> Today's Weather </a></li>
+                <li><a href="#"> About Us </a></li>
+                <li><a href="#"> Contact Us </a></li>
+            </ul>
+        </nav>
+
+        <main id="app-container">
+
+            
+
+
+            <div class="upperbox">
+
+                <div class="uperbox location" id="location">
+                    <p>----</p>
+                </div>
+                <div class="uperbox location" id="temp">
+                    <img id="temp-icon" src="weathicons/sun.svg" alt="">
+                    <p><span id="temp-value">----</span> <span id="temp-unit">&#176c</span></p>
+                </div>
+                <div class="uperbox location" id="climate">
+                    <p>----</p>
+                </div>
+
+                <div class="uperbox timebox" id="timebox">
+                    <div class="current-time" id="current-time">03:33<span id="am-pm">PM</span></div>
+                    <div class="current-date" id="date">12 February, Sunday</div>
+
+                </div>
+
+            </div>
+
+
+
+
+        </main>
+
+
+        <div  class="weather_forecast">
+            <article class="weather_forecast_item">
+                <img src="weathicons/sun.svg" alt="weather icon" class="weather_forecast_icon">
+                <h3 class="weather_forecast_day">Day</h3>
+                <p class="weather_forecast_temperature"><span class="value">+25</span>&deg;C</p>
+            </article>
+            <article class="weather_forecast_item">
+                <img src="weathicons/sun.svg" alt="weather icon" class="weather_forecast_icon">
+                <h3 class="weather_forecast_day">Day</h3>
+                <p class="weather_forecast_temperature"><span class="value">+25</span>&deg;C</p>
+            </article>
+            <article class="weather_forecast_item">
+                <img src="weathicons/sun.svg" alt="weather icon" class="weather_forecast_icon">
+                <h3 class="weather_forecast_day">Day</h3>
+                <p class="weather_forecast_temperature"><span class="value">+25</span>&deg;C</p>
+            </article>
+            <article class="weather_forecast_item">
+                <img src="weathicons/sun.svg" alt="weather icon" class="weather_forecast_icon">
+                <h3 class="weather_forecast_day">Day</h3>
+                <p class="weather_forecast_temperature"><span class="value">+25</span>&deg;C</p>
+            </article>
+            <article class="weather_forecast_item">
+                <img src="weathicons/sun.svg" alt="weather icon" class="weather_forecast_icon">
+                <h3 class="weather_forecast_day">Day</h3>
+                <p class="weather_forecast_temperature"><span class="value">+25</span>&deg;C</p>
+            </article>
+
+
+        </div>
+
+        <script src="weath.js">  
+           </script>
+
+    </body>
+</html>
