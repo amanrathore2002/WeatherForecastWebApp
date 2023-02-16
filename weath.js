@@ -24,6 +24,15 @@ searchButton.addEventListener('click', (e)=>{
 
 });
 
+searchButton.addEventListener("keypress", function(e) {
+  if (e.key === "Enter") {
+      document.getElementById("searchb").click();
+  }
+});
+
+
+
+
 const getWeather=async (city)=>{
     try{
 
